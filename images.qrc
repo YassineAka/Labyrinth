@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Objective/Bat.png</file>
+        <file>images/Objective/Beetle.png</file>
+        <file>images/Objective/Bones.png</file>
+        <file>images/Objective/Butterfly.png</file>
+        <file>images/Objective/Crown.png</file>
+        <file>images/Objective/Cundlestick.png</file>
+        <file>images/Objective/Dragon.png</file>
+        <file>images/Objective/Emerald.png</file>
+        <file>images/Objective/Fairy.png</file>
+        <file>images/Objective/Genius.png</file>
+        <file>images/Objective/Ghost.png</file>
+        <file>images/Objective/Gnome.png</file>
+        <file>images/Objective/Gold_Purse.png</file>
+        <file>images/Objective/Grimoire.png</file>
+        <file>images/Objective/Helm.png</file>
+        <file>images/Objective/Keys.png</file>
+        <file>images/Objective/Lizard.png</file>
+        <file>images/Objective/Map.png</file>
+        <file>images/Objective/Owls.png</file>
+        <file>images/Objective/Rat.png</file>
+        <file>images/Objective/Ring.png</file>
+        <file>images/Objective/Spider.png</file>
+        <file>images/Objective/Sword.png</file>
+        <file>images/Objective/Treasure.png</file>
+        <file>images/Objective/Wizzardry.png</file>
+        <file>images/DroiteBas.png</file>
+        <file>images/DroiteHaut.png</file>
+        <file>images/DroiteHautBas.png</file>
+        <file>images/GaucheBas.png</file>
+        <file>images/GaucheDroite.png</file>
+        <file>images/GaucheDroiteBas.png</file>
+        <file>images/GaucheHaut.png</file>
+        <file>images/GaucheHautBas.png</file>
+        <file>images/GaucherDroiteHaut.png</file>
+        <file>images/HautBas - Copy.png</file>
+        <file>images/HautBas.png</file>
+        <file>images/PlayerBlue.png</file>
+        <file>images/PlayerGreen.png</file>
+        <file>images/PlayerRed.png</file>
+        <file>images/PlayerYellow.png</file>
+        <file>images/Void.png</file>
+    </qresource>
+</RCC>

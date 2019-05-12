@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\case.o
+./release\casei.o
+./release\casel.o
+./release\caset.o
+./release\labyrinth.o
+./release\plate.o
+./release\player.o
+./release\position.o
+./release\box.o
+./release\board.o
+./release\window.o
+./release\subject.o
+./release\qrc_images.o
+);

@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\case.o
+./debug\casei.o
+./debug\casel.o
+./debug\caset.o
+./debug\labyrinth.o
+./debug\plate.o
+./debug\player.o
+./debug\position.o
+./debug\box.o
+./debug\board.o
+./debug\window.o
+./debug\subject.o
+./debug\qrc_images.o
+);
