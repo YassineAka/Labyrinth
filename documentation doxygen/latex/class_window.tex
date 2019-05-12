@@ -1,0 +1,230 @@
+\hypertarget{class_window}{}\section{Window Class Reference}
+\label{class_window}\index{Window@{Window}}
+Inheritance diagram for Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_window}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_window_a2bbdf5c5bf31fa440a4f6a11e6916093}{Window}} (Labyrinth $\ast$game)
+\begin{DoxyCompactList}\small\item\em constructeur du \mbox{\hyperlink{class_window}{Window}} \end{DoxyCompactList}\item 
+Q\+Widget $\ast$ \mbox{\hyperlink{class_window_a1a60012c708f7e312c7c084ff923681c}{get\+Window}} ()
+\begin{DoxyCompactList}\small\item\em get\+Window \end{DoxyCompactList}\item 
+Q\+Spin\+Box $\ast$ \mbox{\hyperlink{class_window_acc5670401d2edec488b8eba20cfb1d2b}{get\+Y\+Position}} ()
+\begin{DoxyCompactList}\small\item\em accede a la Position y \end{DoxyCompactList}\item 
+Q\+Spin\+Box $\ast$ \mbox{\hyperlink{class_window_a4748fb7d7a0de845106effeec06a30a5}{get\+X\+Position}} ()
+\begin{DoxyCompactList}\small\item\em accede a la Position x \end{DoxyCompactList}\item 
+Q\+Spin\+Box $\ast$ \mbox{\hyperlink{class_window_ad4653c5a933dad023b65a13e41542f7b}{get\+X\+Case}} ()
+\begin{DoxyCompactList}\small\item\em accede a la case x \end{DoxyCompactList}\item 
+Q\+Spin\+Box $\ast$ \mbox{\hyperlink{class_window_a4ce8d19246d36b345acb0b25a4693572}{get\+Y\+Case}} ()
+\begin{DoxyCompactList}\small\item\em accede a la case y \end{DoxyCompactList}\item 
+Q\+Push\+Button $\ast$ \mbox{\hyperlink{class_window_a1ae19e5cb4129fcf241af162e00ccb99}{get\+Button\+Go}} ()
+\begin{DoxyCompactList}\small\item\em accede au Button pour jouer \end{DoxyCompactList}\item 
+Q\+Push\+Button $\ast$ \mbox{\hyperlink{class_window_ab97872ecccc1e1019ca123fb3643c864}{get\+Button\+Place}} ()
+\begin{DoxyCompactList}\small\item\em accede au Button\+Place \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_window_affdeb2564502d9f4ca63e8c0c0c6f7c0}{update}} (const \mbox{\hyperlink{classnvs_1_1_subject}{nvs\+::\+Subject}} $\ast$subject) override
+\begin{DoxyCompactList}\small\item\em mise a jour du jeu \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_window_a3706148bcb45e3989d378f2b58d58219}\label{class_window_a3706148bcb45e3989d378f2b58d58219}} 
+void \mbox{\hyperlink{class_window_a3706148bcb45e3989d378f2b58d58219}{place\+Case}} ()
+\begin{DoxyCompactList}\small\item\em placer une case ds le labyrinthe \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_window_a89ff44536707ce6fce5465b83add9dd4}\label{class_window_a89ff44536707ce6fce5465b83add9dd4}} 
+void \mbox{\hyperlink{class_window_a89ff44536707ce6fce5465b83add9dd4}{go}} ()
+\begin{DoxyCompactList}\small\item\em methode pour lancer le mouvement choisis \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_window_a455f9cf515c7bc78aa0c02b8530f777a}\label{class_window_a455f9cf515c7bc78aa0c02b8530f777a}} 
+void \mbox{\hyperlink{class_window_a455f9cf515c7bc78aa0c02b8530f777a}{rotate\+Case}} ()
+\begin{DoxyCompactList}\small\item\em rotate\+Case \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_window_ac37243d4a26d082e4a255b0a07072227}\label{class_window_ac37243d4a26d082e4a255b0a07072227}} 
+Q\+Spin\+Box $\ast$ {\bfseries x\+Case\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a178347052c2e583403d9fb3a904806d1}\label{class_window_a178347052c2e583403d9fb3a904806d1}} 
+Q\+Spin\+Box $\ast$ {\bfseries y\+Case\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a0454f5b98fc9b1991ccb823ec1450985}\label{class_window_a0454f5b98fc9b1991ccb823ec1450985}} 
+Q\+Spin\+Box $\ast$ {\bfseries x\+Position\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a165c2b7c29c7f7f1f0f8df7c77a9063b}\label{class_window_a165c2b7c29c7f7f1f0f8df7c77a9063b}} 
+Q\+Spin\+Box $\ast$ {\bfseries y\+Position\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_aa5aec3ff4cb51b5d23832a8991ab8679}\label{class_window_aa5aec3ff4cb51b5d23832a8991ab8679}} 
+Q\+Push\+Button $\ast$ {\bfseries place\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a419d02c3c1a37aff30fba1fc5c70e9f7}\label{class_window_a419d02c3c1a37aff30fba1fc5c70e9f7}} 
+Q\+Push\+Button $\ast$ {\bfseries go\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a29f73782c41d702337a59185d1279f57}\label{class_window_a29f73782c41d702337a59185d1279f57}} 
+Q\+Push\+Button $\ast$ {\bfseries rotate\+Button\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a1c64e9f2482f4e16bdf09398970ac804}\label{class_window_a1c64e9f2482f4e16bdf09398970ac804}} 
+\mbox{\hyperlink{class_board}{Board}} $\ast$ {\bfseries board\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a8fe8073d764a6c8ec30172e1acc6e965}\label{class_window_a8fe8073d764a6c8ec30172e1acc6e965}} 
+Labyrinth $\ast$ {\bfseries game\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_acae5895788d29989c7de4dd86dfa5ff7}\label{class_window_acae5895788d29989c7de4dd86dfa5ff7}} 
+Q\+Widget $\ast$ {\bfseries tagger\+Box\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a5eb9980abfa1b99b171df6a9968bba98}\label{class_window_a5eb9980abfa1b99b171df6a9968bba98}} 
+Q\+Label $\ast$ {\bfseries player\+Name\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a27f2dc15c67d87d5cd112a7fb91dd19f}\label{class_window_a27f2dc15c67d87d5cd112a7fb91dd19f}} 
+Q\+Label $\ast$ {\bfseries objective\+Blue\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a225b362a376257c50161cea79b1377d8}\label{class_window_a225b362a376257c50161cea79b1377d8}} 
+Q\+Label $\ast$ {\bfseries objective\+Green\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a069de7a802d806df01e7c66038531fbb}\label{class_window_a069de7a802d806df01e7c66038531fbb}} 
+Q\+Label $\ast$ {\bfseries objective\+Yellow\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_ad1b44cc43f04e39286422fc8c11fa844}\label{class_window_ad1b44cc43f04e39286422fc8c11fa844}} 
+Q\+Label $\ast$ {\bfseries objective\+Red\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a65a8e256e5a31121a5ee673434a44c1f}\label{class_window_a65a8e256e5a31121a5ee673434a44c1f}} 
+\mbox{\hyperlink{class_box}{Box}} $\ast$ {\bfseries remain\+Box\+\_\+}
+\item 
+\mbox{\Hypertarget{class_window_a07a75399b6de45c21b06a42f1aada603}\label{class_window_a07a75399b6de45c21b06a42f1aada603}} 
+Q\+Label $\ast$ {\bfseries current\+Player\+\_\+}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_window_a2bbdf5c5bf31fa440a4f6a11e6916093}\label{class_window_a2bbdf5c5bf31fa440a4f6a11e6916093}} 
+\index{Window@{Window}!Window@{Window}}
+\index{Window@{Window}!Window@{Window}}
+\subsubsection{\texorpdfstring{Window()}{Window()}}
+{\footnotesize\ttfamily Window\+::\+Window (\begin{DoxyParamCaption}\item[{Labyrinth $\ast$}]{game }\end{DoxyParamCaption})}
+
+
+
+constructeur du \mbox{\hyperlink{class_window}{Window}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_window_a1ae19e5cb4129fcf241af162e00ccb99}\label{class_window_a1ae19e5cb4129fcf241af162e00ccb99}} 
+\index{Window@{Window}!get\+Button\+Go@{get\+Button\+Go}}
+\index{get\+Button\+Go@{get\+Button\+Go}!Window@{Window}}
+\subsubsection{\texorpdfstring{get\+Button\+Go()}{getButtonGo()}}
+{\footnotesize\ttfamily Q\+Push\+Button $\ast$ Window\+::get\+Button\+Go (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+accede au Button pour jouer 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_window_ab97872ecccc1e1019ca123fb3643c864}\label{class_window_ab97872ecccc1e1019ca123fb3643c864}} 
+\index{Window@{Window}!get\+Button\+Place@{get\+Button\+Place}}
+\index{get\+Button\+Place@{get\+Button\+Place}!Window@{Window}}
+\subsubsection{\texorpdfstring{get\+Button\+Place()}{getButtonPlace()}}
+{\footnotesize\ttfamily Q\+Push\+Button $\ast$ Window\+::get\+Button\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+accede au Button\+Place 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_window_a1a60012c708f7e312c7c084ff923681c}\label{class_window_a1a60012c708f7e312c7c084ff923681c}} 
+\index{Window@{Window}!get\+Window@{get\+Window}}
+\index{get\+Window@{get\+Window}!Window@{Window}}
+\subsubsection{\texorpdfstring{get\+Window()}{getWindow()}}
+{\footnotesize\ttfamily Q\+Widget$\ast$ Window\+::get\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+get\+Window 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_window_ad4653c5a933dad023b65a13e41542f7b}\label{class_window_ad4653c5a933dad023b65a13e41542f7b}} 
+\index{Window@{Window}!get\+X\+Case@{get\+X\+Case}}
+\index{get\+X\+Case@{get\+X\+Case}!Window@{Window}}
+\subsubsection{\texorpdfstring{get\+X\+Case()}{getXCase()}}
+{\footnotesize\ttfamily Q\+Spin\+Box $\ast$ Window\+::get\+X\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+accede a la case x 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_window_a4748fb7d7a0de845106effeec06a30a5}\label{class_window_a4748fb7d7a0de845106effeec06a30a5}} 
+\index{Window@{Window}!get\+X\+Position@{get\+X\+Position}}
+\index{get\+X\+Position@{get\+X\+Position}!Window@{Window}}
+\subsubsection{\texorpdfstring{get\+X\+Position()}{getXPosition()}}
+{\footnotesize\ttfamily Q\+Spin\+Box $\ast$ Window\+::get\+X\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+accede a la Position x 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_window_a4ce8d19246d36b345acb0b25a4693572}\label{class_window_a4ce8d19246d36b345acb0b25a4693572}} 
+\index{Window@{Window}!get\+Y\+Case@{get\+Y\+Case}}
+\index{get\+Y\+Case@{get\+Y\+Case}!Window@{Window}}
+\subsubsection{\texorpdfstring{get\+Y\+Case()}{getYCase()}}
+{\footnotesize\ttfamily Q\+Spin\+Box $\ast$ Window\+::get\+Y\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+accede a la case y 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_window_acc5670401d2edec488b8eba20cfb1d2b}\label{class_window_acc5670401d2edec488b8eba20cfb1d2b}} 
+\index{Window@{Window}!get\+Y\+Position@{get\+Y\+Position}}
+\index{get\+Y\+Position@{get\+Y\+Position}!Window@{Window}}
+\subsubsection{\texorpdfstring{get\+Y\+Position()}{getYPosition()}}
+{\footnotesize\ttfamily Q\+Spin\+Box $\ast$ Window\+::get\+Y\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+accede a la Position y 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_window_affdeb2564502d9f4ca63e8c0c0c6f7c0}\label{class_window_affdeb2564502d9f4ca63e8c0c0c6f7c0}} 
+\index{Window@{Window}!update@{update}}
+\index{update@{update}!Window@{Window}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Window\+::update (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classnvs_1_1_subject}{nvs\+::\+Subject}} $\ast$}]{subject }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+mise a jour du jeu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em subject} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classnvs_1_1_observer_a4c0373c644180bdc48558e5248968b3a}{nvs\+::\+Observer}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/benaz/\+Documents/cpp+/\+Labyrinth\+Project/window.\+h\item 
+C\+:/\+Users/benaz/\+Documents/cpp+/\+Labyrinth\+Project/window.\+cpp\end{DoxyCompactItemize}

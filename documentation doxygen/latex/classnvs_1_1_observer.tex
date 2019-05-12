@@ -1,0 +1,178 @@
+\hypertarget{classnvs_1_1_observer}{}\section{nvs\+:\+:Observer Class Reference}
+\label{classnvs_1_1_observer}\index{nvs\+::\+Observer@{nvs\+::\+Observer}}
+
+
+Classe abstraite de base de tout observateur.  
+
+
+
+
+{\ttfamily \#include $<$observer.\+h$>$}
+
+Inheritance diagram for nvs\+:\+:Observer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classnvs_1_1_observer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classnvs_1_1_observer_a4c0373c644180bdc48558e5248968b3a}{update}} (const \mbox{\hyperlink{classnvs_1_1_subject}{Subject}} $\ast$subject)=0
+\begin{DoxyCompactList}\small\item\em Méthode virtuelle pure que chaque observateur concret doit implémenter \+: c\textquotesingle{}est cette méthode qu\textquotesingle{}appelle le sujet observé lors d\textquotesingle{}une notification. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classnvs_1_1_observer_aad2df366134bc340a8717360cd7307d2}\label{classnvs_1_1_observer_aad2df366134bc340a8717360cd7307d2}} 
+virtual \mbox{\hyperlink{classnvs_1_1_observer_aad2df366134bc340a8717360cd7307d2}{$\sim$\+Observer}} ()=default
+\begin{DoxyCompactList}\small\item\em Destructeur virtuel par défaut car utilisation polymorphique. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classnvs_1_1_observer_a4515f485c0ca822e088cffdfc30d3ed8}{Observer}} (const \mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \&)=default
+\begin{DoxyCompactList}\small\item\em Constructeur par recopie par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classnvs_1_1_observer_a3058c1a0d319e92a563a6ed09354e8f6}{Observer}} (\mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \&\&)=default
+\begin{DoxyCompactList}\small\item\em Constructeur par déplacement par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \& \mbox{\hyperlink{classnvs_1_1_observer_a405218b4689360fb9d8fdab3bed37dad}{operator=}} (const \mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \&)=default
+\begin{DoxyCompactList}\small\item\em Opérateur d\textquotesingle{}assignation par recopie par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \& \mbox{\hyperlink{classnvs_1_1_observer_a12803c6d97f98c355a0f46b36a35d64b}{operator=}} (\mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \&\&)=default
+\begin{DoxyCompactList}\small\item\em Opérateur d\textquotesingle{}assignation par déplacement par défaut. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classnvs_1_1_observer_a755ac6084a75b80cf8b7a7cf6fd4e8dd}{Observer}} ()=default
+\begin{DoxyCompactList}\small\item\em Constructeur protégé pour éviter l\textquotesingle{}instanciation hors héritage. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe abstraite de base de tout observateur. 
+
+Classe dont dérive tout écouteur (ou \char`\"{}observateur\char`\"{}) du modèle de conception \char`\"{}\+Observateur / Sujet\+D\+Observation\char`\"{}.
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classnvs_1_1_subject}{Subject}}. 
+
+\href{https://en.wikipedia.org/wiki/Observer_pattern}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Observer\+\_\+pattern} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnvs_1_1_observer_a4515f485c0ca822e088cffdfc30d3ed8}\label{classnvs_1_1_observer_a4515f485c0ca822e088cffdfc30d3ed8}} 
+\index{nvs\+::\+Observer@{nvs\+::\+Observer}!Observer@{Observer}}
+\index{Observer@{Observer}!nvs\+::\+Observer@{nvs\+::\+Observer}}
+\subsubsection{\texorpdfstring{Observer()}{Observer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily nvs\+::\+Observer\+::\+Observer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Constructeur par recopie par défaut. 
+
+Le destructeur virtuel par défaut a des effets en cascade.
+
+\begin{DoxySeeAlso}{See also}
+\href{http://stackoverflow.com/q/33957037}{\tt http\+://stackoverflow.\+com/q/33957037} 
+
+\href{http://scottmeyers.blogspot.de/2014/03/a-concern-about-rule-of-zero.html}{\tt http\+://scottmeyers.\+blogspot.\+de/2014/03/a-\/concern-\/about-\/rule-\/of-\/zero.\+html} 
+
+\href{https://blog.feabhas.com/2015/11/becoming-a-rule-of-zero-hero/}{\tt https\+://blog.\+feabhas.\+com/2015/11/becoming-\/a-\/rule-\/of-\/zero-\/hero/} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classnvs_1_1_observer_a3058c1a0d319e92a563a6ed09354e8f6}\label{classnvs_1_1_observer_a3058c1a0d319e92a563a6ed09354e8f6}} 
+\index{nvs\+::\+Observer@{nvs\+::\+Observer}!Observer@{Observer}}
+\index{Observer@{Observer}!nvs\+::\+Observer@{nvs\+::\+Observer}}
+\subsubsection{\texorpdfstring{Observer()}{Observer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily nvs\+::\+Observer\+::\+Observer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \&\&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Constructeur par déplacement par défaut. 
+
+Le destructeur virtuel par défaut a des effets en cascade.
+
+\begin{DoxySeeAlso}{See also}
+\href{http://stackoverflow.com/q/33957037}{\tt http\+://stackoverflow.\+com/q/33957037} 
+
+\href{http://scottmeyers.blogspot.de/2014/03/a-concern-about-rule-of-zero.html}{\tt http\+://scottmeyers.\+blogspot.\+de/2014/03/a-\/concern-\/about-\/rule-\/of-\/zero.\+html} 
+
+\href{https://blog.feabhas.com/2015/11/becoming-a-rule-of-zero-hero/}{\tt https\+://blog.\+feabhas.\+com/2015/11/becoming-\/a-\/rule-\/of-\/zero-\/hero/} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classnvs_1_1_observer_a755ac6084a75b80cf8b7a7cf6fd4e8dd}\label{classnvs_1_1_observer_a755ac6084a75b80cf8b7a7cf6fd4e8dd}} 
+\index{nvs\+::\+Observer@{nvs\+::\+Observer}!Observer@{Observer}}
+\index{Observer@{Observer}!nvs\+::\+Observer@{nvs\+::\+Observer}}
+\subsubsection{\texorpdfstring{Observer()}{Observer()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily nvs\+::\+Observer\+::\+Observer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [default]}}
+
+
+
+Constructeur protégé pour éviter l\textquotesingle{}instanciation hors héritage. 
+
+Le destructeur virtuel par défaut a des effets en cascade.
+
+\begin{DoxySeeAlso}{See also}
+\href{http://stackoverflow.com/q/33957037}{\tt http\+://stackoverflow.\+com/q/33957037} 
+
+\href{http://scottmeyers.blogspot.de/2014/03/a-concern-about-rule-of-zero.html}{\tt http\+://scottmeyers.\+blogspot.\+de/2014/03/a-\/concern-\/about-\/rule-\/of-\/zero.\+html} 
+
+\href{https://blog.feabhas.com/2015/11/becoming-a-rule-of-zero-hero/}{\tt https\+://blog.\+feabhas.\+com/2015/11/becoming-\/a-\/rule-\/of-\/zero-\/hero/} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnvs_1_1_observer_a405218b4689360fb9d8fdab3bed37dad}\label{classnvs_1_1_observer_a405218b4689360fb9d8fdab3bed37dad}} 
+\index{nvs\+::\+Observer@{nvs\+::\+Observer}!operator=@{operator=}}
+\index{operator=@{operator=}!nvs\+::\+Observer@{nvs\+::\+Observer}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classnvs_1_1_observer}{Observer}}\& nvs\+::\+Observer\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Opérateur d\textquotesingle{}assignation par recopie par défaut. 
+
+Le destructeur virtuel par défaut a des effets en cascade.
+
+\begin{DoxySeeAlso}{See also}
+\href{http://stackoverflow.com/q/33957037}{\tt http\+://stackoverflow.\+com/q/33957037} 
+
+\href{http://scottmeyers.blogspot.de/2014/03/a-concern-about-rule-of-zero.html}{\tt http\+://scottmeyers.\+blogspot.\+de/2014/03/a-\/concern-\/about-\/rule-\/of-\/zero.\+html} 
+
+\href{https://blog.feabhas.com/2015/11/becoming-a-rule-of-zero-hero/}{\tt https\+://blog.\+feabhas.\+com/2015/11/becoming-\/a-\/rule-\/of-\/zero-\/hero/} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classnvs_1_1_observer_a12803c6d97f98c355a0f46b36a35d64b}\label{classnvs_1_1_observer_a12803c6d97f98c355a0f46b36a35d64b}} 
+\index{nvs\+::\+Observer@{nvs\+::\+Observer}!operator=@{operator=}}
+\index{operator=@{operator=}!nvs\+::\+Observer@{nvs\+::\+Observer}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classnvs_1_1_observer}{Observer}}\& nvs\+::\+Observer\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classnvs_1_1_observer}{Observer}} \&\&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Opérateur d\textquotesingle{}assignation par déplacement par défaut. 
+
+Le destructeur virtuel par défaut a des effets en cascade.
+
+\begin{DoxySeeAlso}{See also}
+\href{http://stackoverflow.com/q/33957037}{\tt http\+://stackoverflow.\+com/q/33957037} 
+
+\href{http://scottmeyers.blogspot.de/2014/03/a-concern-about-rule-of-zero.html}{\tt http\+://scottmeyers.\+blogspot.\+de/2014/03/a-\/concern-\/about-\/rule-\/of-\/zero.\+html} 
+
+\href{https://blog.feabhas.com/2015/11/becoming-a-rule-of-zero-hero/}{\tt https\+://blog.\+feabhas.\+com/2015/11/becoming-\/a-\/rule-\/of-\/zero-\/hero/} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classnvs_1_1_observer_a4c0373c644180bdc48558e5248968b3a}\label{classnvs_1_1_observer_a4c0373c644180bdc48558e5248968b3a}} 
+\index{nvs\+::\+Observer@{nvs\+::\+Observer}!update@{update}}
+\index{update@{update}!nvs\+::\+Observer@{nvs\+::\+Observer}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily virtual void nvs\+::\+Observer\+::update (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classnvs_1_1_subject}{Subject}} $\ast$}]{subject }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Méthode virtuelle pure que chaque observateur concret doit implémenter \+: c\textquotesingle{}est cette méthode qu\textquotesingle{}appelle le sujet observé lors d\textquotesingle{}une notification. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em subject} & le sujet d\textquotesingle{}observation qui notifie un changement. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classnvs_1_1_subject_ac0c7f6fc31ec3dd61c1e102cb565cdf9}{Subject\+::notify\+Observers()}}. 
+\end{DoxySeeAlso}
+
+
+Implemented in \mbox{\hyperlink{class_window_affdeb2564502d9f4ca63e8c0c0c6f7c0}{Window}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/benaz/\+Documents/cpp+/\+Labyrinth\+Project/\mbox{\hyperlink{observer_8h}{observer.\+h}}\end{DoxyCompactItemize}
