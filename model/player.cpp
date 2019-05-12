@@ -99,6 +99,7 @@ QPixmap Player::getImage(Objective obj){
 
     case Objective::WIZZARDY:
         return(QPixmap(":/images/Objective/Wizzardry.png"));
-
+    default:
+        return(QPixmap(":/images/Void.png"));
     }
 }

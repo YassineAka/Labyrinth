@@ -96,27 +96,7 @@ bool Labyrinth::isOver() {
     return false;
 
 }
-Player Labyrinth::getWinner(){
-    if (CurrentPlayer_->getStock().empty()) {
-        if (CurrentPlayer_->getColor() == Color::BLUE) {
-            if ((CurrentPlayer_->getPosition().getX() == 0) && ((CurrentPlayer_->getPosition().getY() == 0))) {
-                return *CurrentPlayer_;
-            }
-        }else if (CurrentPlayer_->getColor() == Color::RED) {
-            if ((CurrentPlayer_->getPosition().getX() == 0) && ((CurrentPlayer_->getPosition().getY() == 6))) {
-                return *CurrentPlayer_;
-            }
-        }else if (CurrentPlayer_->getColor() == Color::GREEN) {
-            if ((CurrentPlayer_->getPosition().getX() == 6) && ((CurrentPlayer_->getPosition().getY() == 6))) {
-                return *CurrentPlayer_;
-            }
-         }else{
-                if ((CurrentPlayer_->getPosition().getX() == 6) && ((CurrentPlayer_->getPosition().getY() == 0))) {
-                    return *CurrentPlayer_;
-                }
-         }
-    }
-}
+
 
 void Labyrinth:: nextPlayer(){
 
@@ -154,24 +134,4 @@ list<Player> Labyrinth::getPlayersAt(Position pos){
     }
     return players;
 }
-QString* getStringFromColor(Color color)
-{
-    QString  * stringColor;
-    switch(color){
-    case Color::BLUE:
-        stringColor->append("BLUE")  ;
-        break;
-    case Color::RED:
-        stringColor->append("RED");
-        break;
-    case Color::GREEN:
-        stringColor->append("GREEN");
-        break;
-    case Color::YELLOW:
-        stringColor->append("YELLOW");
-        break;
-    default:
-        ;
-    }
-    return stringColor;
-}
+

@@ -188,7 +188,7 @@ void Window::update(const nvs::Subject * subject)
                 QString * info = new QString(" CONGRATULATION PLAYER ");
                 info->append("BLUE !!!");
                 endGame.setInformativeText(*info);
-                int ret = endGame.exec();
+                endGame.exec();
                 this->setEnabled(false);
             }
             else
@@ -208,7 +208,7 @@ void Window::update(const nvs::Subject * subject)
                 QString * info = new QString(" CONGRATULATION PLAYER ");
                 info->append("GREEN !!!");
                 endGame.setInformativeText(*info);
-                int ret = endGame.exec();
+                endGame.exec();
                 this->setEnabled(false);
             }
             else
@@ -226,7 +226,7 @@ void Window::update(const nvs::Subject * subject)
                     QString * info = new QString(" CONGRATULATION PLAYER ");
                     info->append("YELLOW !!!");
                     endGame.setInformativeText(*info);
-                    int ret = endGame.exec();
+                    endGame.exec();
                     this->setEnabled(false);
                 }
                 else
@@ -244,7 +244,7 @@ void Window::update(const nvs::Subject * subject)
                     QString * info = new QString(" CONGRATULATION PLAYER ");
                     info->append("RED !!!");
                     endGame.setInformativeText(*info);
-                    int ret = endGame.exec();
+                    endGame.exec();
                     this->setEnabled(false);
                 }
                 else
@@ -285,7 +285,7 @@ void Window::placeCase()
         QMessageBox wrongPos;
         wrongPos.setText("You can't place here ! ");
         wrongPos.setInformativeText("Try an other pos");
-        int ret = wrongPos.exec();
+        wrongPos.exec();
     }else{
         game_->placeNewCase(Position(xCase_->value(),yCase_->value()));
         place_->setEnabled(false);
@@ -324,7 +324,7 @@ void Window::go()
        QMessageBox warning;
        warning.setText("You can't go there ! ");
        warning.setInformativeText("Try  an other path");
-       int ret = warning.exec();
+       warning.exec();
     }
     place_->setEnabled(true);
     go_->setEnabled(false);
