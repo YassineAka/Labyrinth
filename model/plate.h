@@ -50,8 +50,18 @@ public:
      * @return un objectif selectionner.
      */
     Objective randomObjective();
+    /**
+     * @brief getObjectivePlate affiche les objectif du plate
+     */
     inline void getObjectivePlate();
+    /**
+     * @brief accede a la RemainCase
+     * @return
+     */
     inline Case getRemainCase();
+    /**
+     * @brief rotation de la remainCase
+     */
     void rotateRemainCase();
 };
     inline Case Plate::getRemainCase()

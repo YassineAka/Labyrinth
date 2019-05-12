@@ -60,10 +60,30 @@ public:
      * @brief afficherPlayer
      */
     inline vector<Player> getAllPlayers()  ;
+    /**
+     * @brief getPlate accede au plateau du jeu
+     * @return le plateau trouver
+     */
     inline Plate getPlate();
+    /**
+     * @brief permet d avoir le CurrentPlayer
+     * @return le currentplayer
+     */
     inline Player getCurrentPlayer();
+    /**
+     * @brief getPlayersAt avoir un joueur a une position
+     * @param pos
+     * @return list de player
+     */
     list<Player> getPlayersAt(Position pos);
+    /**
+     * @brief isGameOver verifie sir le jeu est fini
+     * @return boolean si le jeu est fini
+     */
     inline bool isGameOver();
+    /**
+     * @brief rotate la RemainCase
+     */
     void rotateRemainCase();
 
 };

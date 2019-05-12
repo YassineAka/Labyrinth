@@ -9,7 +9,14 @@
 class Board : public QGridLayout
 {
 public:
+    /**
+     * @brief constructeur Board
+     * @param game
+     */
     Board(Labyrinth * game);
+    /**
+     * @brief update mets a jour le board.
+     */
     void update();
 private:
     Labyrinth * game_;

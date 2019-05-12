@@ -111,8 +111,19 @@ public:
      * @param isAnEntrance savoir quelle sont les coter qui sont des entrees.
      */
     void setLeft(bool isAnEntrance);
+    /**
+     * @brief addPlayer rajoute un joueur a la partie
+     * @param player le joueur qu 'il faut rajouter
+     */
     void addPlayer(Player player);
+    /**
+     * @brief tourner une Case
+     */
     void rotateCase();
+    /**
+     * @brief permet d avoir a valeur du compteur
+     * @return
+     */
     inline int getCpt();
 
 

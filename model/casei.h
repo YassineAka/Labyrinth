@@ -32,7 +32,15 @@ public:
      */
 
     void rotateCase();
+    /**
+     * @brief addPlayer rajoute un joueur a la partie
+     * @param player le joueur qu 'il faut rajouter
+     */
     inline void addPlayer(Player player);
+    /**
+     * @brief getPlayers permet d avoir les joueurs
+     * @return tableau de joueur.
+     */
     inline vector<Player> getPlayers();
 };
 inline void CaseI::addPlayer(Player player) {

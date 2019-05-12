@@ -35,7 +35,14 @@ public:
      * @return
      */
     bool erreurChemin();
+    /**
+     * @brief accede au Labyrinth fournie a la vue
+     * @return labyrinthe trouver
+     */
     Labyrinth& getLabyrinth();
+    /**
+     * @brief affichePlateauObjective
+     */
     void affichePlateauObjective();
 private:
     Labyrinth& labyrinth_;

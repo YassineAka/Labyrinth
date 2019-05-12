@@ -75,6 +75,10 @@ public:
      * @param pos
      */
     void chooseEntrance(Position pos);
+    /**
+     * @brief accede a l'index du joueur.
+     * @return
+     */
     int getIndex();
     QPixmap getImage(Objective obj);
     inline string getStringFromColor();

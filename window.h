@@ -36,17 +36,62 @@ private:
     Box * remainBox_;
     QLabel * currentPlayer_;
 public:
+    /**
+     * @brief constructeur du Window
+     * @param game
+     */
     Window(Labyrinth  * game);
+    /**
+     * @brief getWindow
+     * @return
+     */
     inline QWidget* getWindow();
+    /**
+     * @brief accede a la Position y
+     * @return
+     */
     inline QSpinBox* getYPosition();
+    /**
+     * @brief accede a la Position x
+     * @return
+     */
     inline QSpinBox* getXPosition();
+    /**
+     * @brief accede a la case x
+     * @return
+     */
     inline QSpinBox* getXCase();
+    /**
+     * @brief accede a la case y
+     * @return
+     */
     inline QSpinBox* getYCase();
+    /**
+     * @brief accede au Button pour jouer
+     * @return
+     */
     inline QPushButton* getButtonGo();
+    /**
+     * @brief accede au ButtonPlace
+     * @return
+     */
     inline QPushButton* getButtonPlace();
+    /**
+     * @brief mise a jour du jeu
+     * @param subject
+     */
     void update(const nvs::Subject * subject) override;
+    /**
+     * @brief placer une case ds le labyrinthe
+     */
     void placeCase();
+    /**
+     * @brief methode pour lancer le mouvement choisis
+     */
     void go();
+    /**
+     * @brief rotateCase
+     */
     void rotateCase();
 
 };
