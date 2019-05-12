@@ -288,9 +288,10 @@ void Window::placeCase()
         int ret = wrongPos.exec();
     }else{
         game_->placeNewCase(Position(xCase_->value(),yCase_->value()));
+        place_->setEnabled(false);
+        go_->setEnabled(true);
     }
-    place_->setEnabled(false);
-    go_->setEnabled(true);
+
 }
 void Window::go()
 {
